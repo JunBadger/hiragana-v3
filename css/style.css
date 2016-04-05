@@ -103,7 +103,7 @@ h2 {
   height: 13vw;
   background-color: #E0572A;
 /*   float: left; */
-  margin-left: 1%;
+  margin-left: 0.5%;
   display: inline-block;
   vertical-align: top;
 }
@@ -139,7 +139,7 @@ svg {
   stroke-width: 4;
   stroke-linecap: round;
   fill: none;
-  margin: 5%;
+  margin: 8%;
 }
 
 
@@ -176,6 +176,12 @@ svg {
   animation: hiragana 2s 1.8s forwards linear;
 }
 
+.square:hover .animate .stroke-four {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: hiragana 2s 2.4s forwards linear;
+}
+
 
 
  /*end container */
@@ -187,7 +193,7 @@ svg {
 
 
 
-header {
+/*header {
   width: 100%;
   height: 400px;
   background-color: yellow;
@@ -197,7 +203,7 @@ footer {
   width: 100%;
   height: 400px;
   background-color: purple;
-}
+}*/
 
 /******************************************
 /* ADDITIONAL STYLES
